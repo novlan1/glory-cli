@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.4](https://github.com/novlan1/glory-cli/compare/v0.0.3...v0.0.4) (2022-09-13)
+
+
+### Features
+
+* 优化repo获取 ([8b0a779](https://github.com/novlan1/glory-cli/commit/8b0a779c794008ea24c47956432386e6787f4683))
+
 ### [0.0.3](https://github.com/novlan1/glory-cli/compare/v0.0.2...v0.0.3) (2022-09-13)
 
 ### 0.0.2 (2022-09-13)

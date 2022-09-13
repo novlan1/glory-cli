@@ -1,6 +1,6 @@
 {
   "name": "glory-cli",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "前端脚手架",
   "main": "index.js",
   "bin": {
