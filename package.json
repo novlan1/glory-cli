@@ -6,7 +6,10 @@
   "bin": {
     "glory-cli": "./bin/glory"
   },
-  "scripts": {},
+  "scripts": {
+    "release": "npm run write:npm:token && git push --follow-tags origin master && npm publish",
+    "write:npm:token": "node script/write-npm-token.js"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/novlan1/glory-cli.git"
