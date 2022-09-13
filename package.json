@@ -7,8 +7,12 @@
     "glory-cli": "./bin/glory"
   },
   "scripts": {
-    "release": "npm run write:npm:token && git push --follow-tags origin master && npm publish",
-    "write:npm:token": "node script/write-npm-token.js"
+    "release": "npm run release-patch && npm run write:npm:token && git push --follow-tags origin master && npm publish",
+    "write:npm:token": "node script/write-npm-token.js",
+    "release:first": "standard-version --first-release",
+    "release-major": "standard-version --release-as major",
+    "release-minor": "standard-version --release-as minor",
+    "release-patch": "standard-version --release-as patch"
   },
   "repository": {
     "type": "git",
@@ -40,5 +44,7 @@
     "log-symbols": "^4.1.0",
     "ora": "^5.0.0"
   },
-  "devDependencies": {}
+  "devDependencies": {
+    "standard-version": "^9.5.0"
+  }
 }
