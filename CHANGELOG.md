@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.7](https://github.com/novlan1/glory-cli/compare/v0.0.6...v0.0.7) (2022-09-15)
+
+
+### Features
+
+* 模板移动到配置中 ([22d9196](https://github.com/novlan1/glory-cli/commit/22d91963f3ba4617eda17db8a29ff504c56d8851))
+* 修复eslint ([ddd4408](https://github.com/novlan1/glory-cli/commit/ddd44086f94ab9aee521a6b05a91607e1653eb4e))
+
 ### [0.0.6](https://github.com/novlan1/glory-cli/compare/v0.0.5...v0.0.6) (2022-09-13)
 
 
