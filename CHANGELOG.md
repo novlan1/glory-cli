@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.8](https://github.com/novlan1/glory-cli/compare/v0.0.7...v0.0.8) (2022-09-15)
+
+
+### Features
+
+* 优化figlet配置 ([cff7a85](https://github.com/novlan1/glory-cli/commit/cff7a85e549671d2e9f894649ebdb2e9329dde1c))
+
 ### [0.0.7](https://github.com/novlan1/glory-cli/compare/v0.0.6...v0.0.7) (2022-09-15)
 
 
