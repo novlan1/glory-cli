@@ -28,7 +28,7 @@ program.on("--help", function () {
   console.log(
     "\r\n" +
       figlet.textSync("glory-cli", {
-        font: "3D-ASCII",
+        // font: "3D-ASCII",
         horizontalLayout: "default",
         verticalLayout: "default",
         width: 80,
@@ -50,7 +50,7 @@ program
   .usage(`<command> [option]`)
   .version(`${CLI_NAME} ${require("../package.json").version}`);
 
-  
+
 // 解析用户执行时输入的参数
 // process.argv 是 nodejs 提供的属性
 // npm run server --port 3000
