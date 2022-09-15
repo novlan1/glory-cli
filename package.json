@@ -8,6 +8,8 @@
   },
   "scripts": {
     "release": "npm run release-patch && npm run write:npm:token && git push --follow-tags origin master && npm publish",
+    "lint": "eslint --ext .js,.ts .",
+    "lint:fix": "eslint --fix --ext .js,.ts .",
     "write:npm:token": "node script/write-npm-token.js",
     "release:first": "standard-version --first-release",
     "release-major": "standard-version --release-as major",
@@ -45,6 +47,7 @@
     "ora": "^5.0.0"
   },
   "devDependencies": {
+    "eslint-config-light": "^1.0.4",
     "standard-version": "^9.5.0"
   }
 }
