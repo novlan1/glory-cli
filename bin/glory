@@ -27,7 +27,7 @@ program
 program.on("--help", function () {
   console.log(
     "\r\n" +
-      figlet.textSync("glory-cli", {
+      figlet.textSync(`${CLI_NAME}`, {
         // font: "3D-ASCII",
         horizontalLayout: "default",
         verticalLayout: "default",
