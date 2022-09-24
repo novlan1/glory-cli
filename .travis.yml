@@ -12,9 +12,10 @@ script:
 - echo $TRAVIS_PULL_REQUEST
 - echo $TRAVIS_BRANCH
 - echo $TRAVIS_REPO_SLUG
-- echo $GH_REPO_TOKEN
+- echo $GH_TOKEN
 - echo ${TRAVIS_BUILD_NUMBER}
 - echo ${BASH_SOURCE}
+- echo ${TRAVIS_BUILD_DIR}
 - cd $TRAVIS_BUILD_DIR
 - chmod +x generateDocs.sh
 - bash generateDocs.sh
