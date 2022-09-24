@@ -2,9 +2,13 @@ language: node_js
 node_js:
 - '14'
 sudo: false
+cache: yarn
 branches:
   only:
   - master
 before_script:
 - npm install
 script:
+- cd $TRAVIS_BUILD_DIR
+- chmod +x generateDocs.sh
+- bash generateDocs.sh
