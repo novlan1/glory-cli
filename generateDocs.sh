@@ -2,6 +2,10 @@
 
 #Original source https://gist.github.com/vidavidorra/548ffbcdae99d752da02
 
+# TRAVIS_REPO_SLUG=novlan1/glory-cli
+# TRAVIS_PULL_REQUEST=false
+# TRAVIS_BRANCH=master
+
 if [ "$TRAVIS_PULL_REQUEST" == "false" ] && [ "$TRAVIS_BRANCH" == "master" ] && [ "$TRAVIS_REPO_SLUG" == "novlan1/glory-cli" ]; then
 
 DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
@@ -36,6 +40,8 @@ echo "" > .nojekyll
 ##### Generate JSDOC documents.          #####
 echo 'Copying generated JSDoc code documentation...'
 # cp -R ../fixtures-doc/* ./ ;
+
+echo "" > index.html
 
 ################################################################################
 ##### Upload the documentation to the gh-pages branch of the repository.   #####
