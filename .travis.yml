@@ -9,6 +9,12 @@ branches:
 before_script:
 - npm install
 script:
+- echo $TRAVIS_PULL_REQUEST
+- echo $TRAVIS_BRANCH
+- echo $TRAVIS_REPO_SLUG
+- echo $GH_REPO_TOKEN
+- echo ${TRAVIS_BUILD_NUMBER}
+- echo ${BASH_SOURCE}
 - cd $TRAVIS_BUILD_DIR
 - chmod +x generateDocs.sh
 - bash generateDocs.sh
